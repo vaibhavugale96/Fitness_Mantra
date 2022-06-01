@@ -4,7 +4,7 @@ from .models import Fitness
 # Create your views here.
 def index(req):
     #testing home page
-    return HttpResponse("<h2>Welcome to Fitness Mantra App<h2>")
+    return HttpResponse("<h2>Welcome to myFitness Mantra App<h2>")
 
 def fitness(req):
     pass
