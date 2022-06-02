@@ -23,7 +23,7 @@ class User:
 
 class UserProgress(models.Model):
     id=models.IntegerField(primary_key=True)
-    user=models.ForeignKey('User')
+    # user=models.ForeignKey('User')
     date=models.DateField()
     score=models.IntegerField()
-    exercises=models.ManyToManyField(Exercise)
+    # exercises=models.ManyToManyField(Exercise)
