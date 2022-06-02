@@ -1,5 +1,5 @@
 from django.db import models
 
 # Create your models here.
-class Fitness(models.Model):
+class Exercise(models.Model):
     pass
